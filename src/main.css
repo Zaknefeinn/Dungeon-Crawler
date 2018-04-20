@@ -1,0 +1,97 @@
+body{
+    background-color:black;
+    color:white;
+}
+h1,
+h2,
+.stat-container{
+    text-align: center;
+}
+
+.stat-container {
+    margin: 5% auto 0;   
+}
+.stat{
+    display: inline-block;
+    margin: 0 15px;
+}
+.container{ 
+    margin: 1% auto;
+    width: 1000px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width:10px;
+    height:10px;
+}
+
+.wall{
+    background-image:url('https://orig00.deviantart.net/72ff/f/2014/155/0/3/pixelwall_1_by_sarahstudiosart-d7l2g0x.png');
+    background-color:gray;
+}
+
+.floor{
+    /*background-color:#ECD475;*/
+    background-image:url('https://t4.ftcdn.net/jpg/01/03/32/35/160_F_103323519_22pxj0nRd3K7I7DhHnlNaFqUXOy2xTkp.jpg');
+    overflow:visible;
+}
+
+.hero{
+    outline:none;
+}
+.heal,
+.hero,
+.weapon,
+.enemy,
+.portal,
+.boss{
+position:relative;
+}
+
+.pic{
+    position:absolute;
+    bottom:0;
+    right:-6px;
+}
+.boss-img{
+    width:55px;
+    height:55px;   
+}
+.enemy-img,
+.portal-img,
+.hero-img,
+.weapon-img{
+    width:35px;
+    height:35px;
+}
+.heal-img{
+    width:20px;
+    height:20px;
+}
+.weapon-img{
+    bottom:-6px;
+    right:-6px;
+}
+.oval{
+    height:10px;
+    width:6px;
+    border-radius:50%;
+    background-color:pink;
+    margin:auto;
+}
+.announcement{
+    width:100%;
+    margin:20px auto 0;
+}
+.prompt{
+    width:100%;
+    margin:-20px auto 0;
+    text-align:center;
+}
+.dark{
+    background-color:black;
+    visibility:hidden;
+}
