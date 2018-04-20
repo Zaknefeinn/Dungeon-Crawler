@@ -23,7 +23,7 @@ class App extends Component{
             canMove:true,
             weaponList:[{weapon:'Stick', atk:7},{weapon:'Knife', atk: 12},{weapon:'Short Sword', atk:17},{weapon:'Long Sword', atk:23},{weapon:'Spear', atk:28},{weapon:'Halberd', atk:33}, {weapon:'Scythe', atk:38}],
             enemyList:[ 
-                {name:'Blob', minDmg:7,maxDmg:10, hp:30, xp:150, img:'<img class="pic enemy-img" src="https://orig00.deviantart.net/3d1c/f/2014/070/f/3/enemy_slime_by_madgharr-d76f2c5.gif">'},
+                {name:'Blob', minDmg:7,maxDmg:10, hp:30, xp:15, img:'<img class="pic enemy-img" src="https://orig00.deviantart.net/3d1c/f/2014/070/f/3/enemy_slime_by_madgharr-d76f2c5.gif">'},
                 {name:'Pumpkin', minDmg:14,maxDmg:20, hp:60, xp:30,img:'<img class="pic enemy-img" src="https://www.gamedevmarket.net/file/df40ac67288c750b6c22fc915450925737e9dbfb.gif">'},
                 {name:'Knight', minDmg:21,maxDmg:30, hp:120, xp:45, img:'<img class="pic enemy-img" src="https://4.bp.blogspot.com/-fGjfqs8638c/VUpYrnFEcrI/AAAAAAAACdg/8HfDfRH0PLY/s1600/flame_lancer_entity_000_idle.gif">'}
             ],
